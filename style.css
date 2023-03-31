@@ -1,0 +1,36 @@
+@font-face {
+    font-family: font;
+    src: url(assets/font/font.ttf);
+}
+
+#display-date {
+    font-family: font;
+    font-size: 100px;
+    color: red;
+    top: 58px;
+    left: 170px;
+    position: absolute;
+}
+
+#display-clock {
+    font-family: font;
+    font-size: 100px;
+    color: red;
+    top: 250px;
+    left: 165px;
+    position: absolute;
+}
+
+#display-day {
+    font-size: 190px;
+    color: red;
+    top: 203px;
+    left: 120px;
+    position: absolute;
+}
+
+.clock-image {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+}
